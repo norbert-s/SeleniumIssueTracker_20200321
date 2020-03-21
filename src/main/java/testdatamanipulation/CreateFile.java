@@ -59,8 +59,8 @@ public class CreateFile {
         number = new Random();
         int n = number.nextInt((1000-1)+1);
         character = new Random();
-        File exists = new File("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\IssueTracker\\src\\main\\java\\properties\\"+num+".txt");
-            file = new FileWriter("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\IssueTracker\\src\\main\\java\\properties\\"+num+".txt");
+        File exists = new File("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\SeleniumIssueTracker_21032020\\src\\main\\java\\properties\\"+num+".txt");
+            file = new FileWriter("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\SeleniumIssueTracker_21032020\\src\\main\\java\\properties\\"+num+".txt");
             for(int i=0;i<num;i++){
 
                 if(i%5==0){

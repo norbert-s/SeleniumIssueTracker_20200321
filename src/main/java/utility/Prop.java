@@ -18,7 +18,7 @@ public class Prop {
     public void properties()  {
         FileInputStream fis = null;
         try {
-            fis = new FileInputStream("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\IssueTracker\\src\\main\\java\\properties\\data.properties");
+            fis = new FileInputStream("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\SeleniumIssueTracker_21032020\\src\\main\\java\\properties\\data.properties");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

@@ -11,7 +11,7 @@ public class ReadTxt {
 
 
     public static String returnRandomLineNumberOfIds() throws IOException {
-        file = new FileReader("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\IssueTracker\\src\\main\\java\\properties\\ids.txt");
+        file = new FileReader("D:\\Users\\nsusz\\source\\repos\\Idea\\Tests\\SeleniumIssueTracker_21032020\\src\\main\\java\\properties\\ids.txt");
         reader = new BufferedReader(file);
         Random random = new Random();
         lineNumber = random.nextInt((8-2)+2);
